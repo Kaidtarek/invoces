@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "abdou-sat-pro",
+          "appId": "1:657683083695:android:90b052411e65ed40497f5a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "abdou-sat-pro",
+          "configurations": {
+            "android": "1:657683083695:android:90b052411e65ed40497f5a",
+            "ios": "1:657683083695:ios:b7fc3ebd7555d2d3497f5a",
+            "macos": "1:657683083695:ios:b7fc3ebd7555d2d3497f5a",
+            "web": "1:657683083695:web:7680840d319db009497f5a",
+            "windows": "1:657683083695:web:7680840d319db009497f5a"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "657683083695",
+    "project_id": "abdou-sat-pro",
+    "storage_bucket": "abdou-sat-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657683083695:android:90b052411e65ed40497f5a",
+        "android_client_info": {
+          "package_name": "com.abdo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2GkekdHMUCEok0w8buEcW8abyYHLjDPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657683083695:android:bbe7b1fb19e8cd85497f5a",
+        "android_client_info": {
+          "package_name": "com.abdousatpro.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2GkekdHMUCEok0w8buEcW8abyYHLjDPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
